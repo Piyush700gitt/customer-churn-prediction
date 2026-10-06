@@ -152,11 +152,17 @@ The models were evaluated using:
 
 Since customer churn is a business-risk problem, **Recall, F1-Score, and ROC-AUC** were considered along with accuracy.
 
+### Model Comparison
+
+| Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
+|---|---:|---:|---:|---:|---:|
+| Logistic Regression | 79.25% | 63.14% | 52.67% | 57.43% | 83.50% |
+| Random Forest | 78.18% | 61.36% | 48.40% | 54.11% | 81.47% |
+| **Gradient Boosting** | **79.53%** | **63.87%** | **52.94%** | **57.89%** | **83.91%** |
+
 ### Model Selection
 
-Gradient Boosting achieved the best F1-Score among the evaluated models and was selected as the final model.
-
----
+**Gradient Boosting Classifier** was selected as the final model because it achieved the best overall performance, including the highest **F1-Score (57.89%)** and **ROC-AUC (83.91%)** among the evaluated models.
 
 ## 🌐 Streamlit Application
 
