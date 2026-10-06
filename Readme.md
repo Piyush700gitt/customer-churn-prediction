@@ -2,6 +2,11 @@
 
 A machine learning project that predicts whether a telecom customer is likely to churn based on demographic, service usage, and account-related information.
 
+## 🚀 Live Demo
+
+👉 [Try the Customer Churn Prediction App](https://customer-churn-prediction-sgm3ztcf8tuxsoijnyeupb.streamlit.app/)
+
+
 ## 📌 Project Overview
 
 Customer churn refers to customers leaving or cancelling a company's services.
